@@ -1417,16 +1417,25 @@ hr.invis1 {
 }
 
 .filter-button-group{
-	border: 1px solid #e4e4e4;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
 	border-radius: 0px;
 	margin: 10px 0px;
-	display: inline-block;
+	/* display: inline-block; */
+
 }
 
 .filter-button-group button.active{
 	background: #333333;
 	color: #fff;
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
+}
+.filter-button-group button:hover{
+	background: #535353;
+	color: #fff;
+	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
+    transition: all 0.3s ease-in-out;
 }
 
 .filter-button-group button{
