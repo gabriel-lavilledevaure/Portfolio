@@ -4,3 +4,9 @@
   margin-top: 20px;
   justify-content: center;
 }
+.col-md-6 {
+}
+
+.col-md-6:nth-child(even) {
+  flex-direction: row-reverse;
+}
